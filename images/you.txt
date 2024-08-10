@@ -45,15 +45,6 @@ $ touch images/you.txt
 
 Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
 $ ls
-LICENSE  Main.java  PROFILE.md  README.md  images/
-
-Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
-$ dir
-LICENSE  Main.java  PROFILE.md  README.md  images
-
-Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
-$ ls
-LICENSE  Main.java  PROFILE.md  README.md  images/
 
 Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
 $ cd images
