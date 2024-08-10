@@ -1,1 +1,116 @@
 What the world needs now is ok
+
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (main)
+$ git checkout skills-introduction-to-github
+error: pathspec 'skills-introduction-to-github' did not match any file(s) known to git
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (main)
+$ git checkout skill-introduction
+error: pathspec 'skill-introduction' did not match any file(s) known to git
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (main)
+$ git checkout skills-one
+Switched to branch 'skills-one'
+Your branch is up to date with 'origin/skills-one'.
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ git status
+On branch skills-one
+Your branch is up to date with 'origin/skills-one'.
+
+nothing to commit, working tree clean
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ copy con _post/Main.java
+bash: copy: command not found
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ touch _post/Main.java
+touch: cannot touch '_post/Main.java': No such file or directory
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ touch _github/Main.java
+touch: cannot touch '_github/Main.java': No such file or directory
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ touch Main.java
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ touch _images/you.txt
+touch: cannot touch '_images/you.txt': No such file or directory
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ touch images/you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ ls
+LICENSE  Main.java  PROFILE.md  README.md  images/
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ dir
+LICENSE  Main.java  PROFILE.md  README.md  images
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ ls
+LICENSE  Main.java  PROFILE.md  README.md  images/
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ cd images
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ ls
+Actions-to-step-4.png         compare-and-pull-request.png  main-branch-dropdown.png
+Green-merge-pull-request.png  create-branch-button.png      my-profile-file.png
+Pull-request-description.png  create-new-file.png           profile-readme-example.png
+code-tab.png                  create-new-repository.png     pull-request-branches.png
+commit-full-screen.png        delete-branch.png             you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ cd skills-introduction-to-github
+bash: cd: skills-introduction-to-github: No such file or directory
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ cd ..
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ notepad you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ notepad cd images
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github (skills-one)
+$ cd images
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ notepad you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ notepad you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ git add you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ git commit -m "Added a simple text document"
+[skills-one 74dadd6] Added a simple text document
+ 1 file changed, 1 insertion(+)
+ create mode 100644 images/you.txt
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 368 bytes | 184.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Parenthesice/skills-introduction-to-github.git
+   9b9b8f4..74dadd6  skills-one -> skills-one
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$ ^C
+
+Ntim Prince@DESKTOP-ELLQOS5 MINGW64 ~/desktop/skills-introduction-to-github/images (skills-one)
+$
